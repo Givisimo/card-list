@@ -1,0 +1,17 @@
+{
+	"components": {
+	    "x-550308-card-list": {
+	        "innerComponents": [
+				"now-template-card"
+			],
+			"uiBuilder": {
+				"associatedTypes": ["global.core", "global.landing-page"],
+				"label": "Card list",
+				"icon": "document-outline",
+				"description": "A container for cards with mock data",
+				"category": "primitives"
+			}
+	    }
+	},
+	"scopeName": "x_550308_test_ca_0"
+}
