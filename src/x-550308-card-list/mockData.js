@@ -184,6 +184,13 @@ export default [
     },
     content: [
       {
+        label: 'Number',
+        value: {
+          type: 'string',
+          value: 'INC0000038',
+        },
+      },
+      {
         label: 'State',
         value: {
           type: 'string',
@@ -191,24 +198,17 @@ export default [
         },
       },
       {
-        label: 'Assigned',
+        label: 'Assignment Group',
+        value: {
+          type: 'string',
+          value: 'Service Desk',
+        },
+      },
+      {
+        label: 'Assigned To',
         value: {
           type: 'string',
           value: 'Carla S',
-        },
-      },
-      {
-        label: 'Priority',
-        value: {
-          type: 'string',
-          value: 'Low',
-        },
-      },
-      {
-        label: 'SLA',
-        value: {
-          type: 'string',
-          value: 'No SLA Set',
         },
       },
     ],
